@@ -7,3 +7,4 @@
 | Dropbox Automation | Creates folders and organizes by style or GF# | 🟡 In Planning | Needs API hook |
 | Tech Pack Intelligence | Extracts BOM, artwork, and assigns vendors | 🟡 In Planning | Leverage GPT parser |
 | Cost Sync | Links vendor replies to costing sheet | 🔲 Not Started | Needs format logic |
+| ClickUp → Slack + Cost Sheet | Triggers Slack vendor notification and logs costing info when a ClickUp task hits `Launch / Green` | 🟡 In Planning | Needs webhook + field parser |
