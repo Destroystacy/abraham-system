@@ -38,3 +38,20 @@ Zack configured the repo using GitHub Desktop and OneDrive for cross-device acce
 - Begin building first automation module: **Slack Command Parser** or **ClickUp Task Breakdown**
 - Add placeholder Slack prompts to `commands.md`
 - Define authentication strategy and payload format for `/clickup/status-change` in `api_hooks.md`
+**2025-07-15**  
+**Log Entry #003**
+
+🔧 Milestone: Added first Abraham script: `clickup_webhook_handler.py`
+
+🧩 Purpose:
+- Respond to ClickUp task status changes (e.g., `Launch / Green`)
+- Trigger downstream actions like Slack vendor notifications and costing log updates
+
+📁 Location: `/scripts/clickup_webhook_handler.py`
+
+💡 Insight: GitHub doesn't track folders unless at least one file exists. A blank `scripts/` folder wasn’t visible until the handler file was committed.
+
+🎯 Next Modules:
+- Slack Message Formatter
+- Costing Sheet Logger (Google Sheets or Excel-compatible)
+- Webhook testing setup via [Webhook.site](https://webhook.site/) or Postman
