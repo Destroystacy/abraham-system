@@ -55,3 +55,19 @@ Zack configured the repo using GitHub Desktop and OneDrive for cross-device acce
 - Slack Message Formatter
 - Costing Sheet Logger (Google Sheets or Excel-compatible)
 - Webhook testing setup via [Webhook.site](https://webhook.site/) or Postman
+**2025-07-15**  
+**Log Entry #004**
+
+📦 Slack Vendor Messaging Module Initialized
+
+Created `slack_vendor_notifier.py` which includes:
+- A formatter function for consistent vendor messages
+- A Slack webhook sender (uses placeholder URL)
+- An example call for testing message formatting + sending
+
+This fulfills the “Slack Integration” phase listed in the README roadmap.
+
+Next up:
+- Link message trigger from `clickup_webhook_handler.py`
+- Add support for dynamic fields from ClickUp API (e.g., vendor, due date)
+- Create test harness via Postman or Webhook.site
