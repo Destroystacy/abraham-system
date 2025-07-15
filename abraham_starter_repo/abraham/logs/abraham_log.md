@@ -20,3 +20,21 @@ ChatGPT and Grok will collaborate using a central repo to store documentation, s
 - Begin documenting Slack/ClickUp prompt syntax
 - Create `commands.md` to house prompt structure
 - Set up first automation node (ClickUp → Slack)
+**2025-07-14**  
+**Log Entry #002**
+
+🔧 Milestone: Abraham system initialized and deployed to GitHub.  
+Zack configured the repo using GitHub Desktop and OneDrive for cross-device access. The initial folder structure was committed and published.
+
+📂 New Files Added:
+- `commands.md`: Central prompt and syntax log for Slack, ClickUp, and ChatGPT tasks.
+- `tasks.md`: Tracker for active module development including Slack Integration, ClickUp Parser, and Dropbox Automation.
+- `api_hooks.md`: Blueprint for incoming webhook endpoints and triggers from Slack, ClickUp, and Dropbox APIs.
+
+💬 Notes:
+> Zach confirmed desire for real-time collaboration between himself, ChatGPT, and Grok using the repo as a shared AI memory. Manual commit workflow chosen for full control. ChatGPT will continue updating logs, task sheets, and prompts upon request.
+
+🎯 Next Targets:
+- Begin building first automation module: **Slack Command Parser** or **ClickUp Task Breakdown**
+- Add placeholder Slack prompts to `commands.md`
+- Define authentication strategy and payload format for `/clickup/status-change` in `api_hooks.md`
